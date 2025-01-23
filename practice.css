@@ -8,21 +8,33 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: #fdeaea;
+
+}
+
 button {
   padding: 10px 16px;
-  background-color: #0f762d;
   border: none;
   outline: none;
   font-size: 16px;
   border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  background-color: #80f;
 }
 
 button:hover {
-  background-color: #fb0;
+  background-color: #80f;
 }
